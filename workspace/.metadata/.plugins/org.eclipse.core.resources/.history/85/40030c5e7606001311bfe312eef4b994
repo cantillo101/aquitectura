@@ -1,0 +1,42 @@
+package mayormenorintermedio;
+import java.util.Scanner;
+public class mayormenorinterme {
+	static double A=10,B=5,C=15,a,b,c;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	a=A%2;
+	b=B%2;
+	C=C%2;
+		if (a==0 && b==0 && c==0){
+			System.out.println("los numeros son pares");
+			Math.sqrt(A);
+			Math.sqrt(B);
+			Math.sqrt(C);
+			System.out.println(+Math.sqrt(A) );
+		}
+		else			
+			System.out.println("Algun numero no es par");
+			if (A>B)
+				if(A>C)
+					if (B>C)
+						System.out.println(""+A+" "+B+" "+C);
+					else
+						System.out.println(""+A+" "+C+" "+B);
+				else
+					System.out.println(""+C+" "+A+" "+B);
+			else
+				if(B>C)
+					if(A>C)
+						System.out.println(""+B+" "+A+" "+C);
+					else
+						System.out.println(""+B+""+C+" "+A);
+				else
+					System.out.println(""+C+" "+B+" "+A);
+							
+		}
+		
+			
+
+	}
+
+

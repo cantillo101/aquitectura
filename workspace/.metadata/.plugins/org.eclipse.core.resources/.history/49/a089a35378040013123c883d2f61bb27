@@ -1,0 +1,43 @@
+package programacion;
+
+public class operacion {
+		int x,y;  
+		public static void main (String m[]){
+			
+				operacion t= new operacion(); 
+				t.x=7;
+				t.y=8;
+				t.suma(); 
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+		public void suma () {
+			int r; 
+			r= x+y; 
+			System.out.println("la suma es" + r);
+		}
+		public void resta() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}
